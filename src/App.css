@@ -1,0 +1,172 @@
+.bgimage{
+  height: 100vh;
+  object-fit:cover;
+  width: 100vw;
+}
+.bgimg{
+  position: fixed;
+  display: flex;
+  top: 0;
+  z-index: -100;
+  margin: 0;
+  padding: 0;
+}
+.homecontent{
+  margin: 0;
+  padding: 0;
+
+}
+
+.csimg{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: -2;
+}
+.csimage{
+  height: 100px;
+  object-fit:inherit;
+
+}
+#img2{
+  margin-top: 85px;
+}
+#img3{
+  margin-top: 160px;
+}
+
+.dewatextcont{
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.textimg{
+  height: 180px;
+}
+.dewades{
+  color: aliceblue;
+  font-size: 3rem;
+  margin-top: -10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.watchimg{
+  height: 350px;
+}
+.csimg2{
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  z-index: -2;
+
+}
+@media only screen and (max-width: 1025px)  {
+  #img3{
+    display: none;
+  }
+  #img1{
+    height: 100px;
+  }
+  #img2{
+    height: 100px;
+    margin-top: 55px;
+  }
+  #img3{
+    height: 100px;
+  }
+  .textimg{
+    height: 140px;
+    margin-top: 20px;
+  }
+  .dewades{
+    color: aliceblue;
+    font-size: 2.2rem;
+    margin-top: -10px;
+  }
+  .watchimg{
+    height: 450px;
+  }
+  
+}
+
+@media only screen and (max-width: 750px)  {
+  #img3{
+    display: none;
+  }
+  #img1{
+    height: 70px;
+  }
+  #img2{
+    height: 70px;
+    margin-top: 37px;
+  }
+  .textimg{
+    height: 100px;
+    margin-top: 20px;
+  }
+  .dewades{
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-top: -10px;
+  }
+  .watchimg{
+    height: 250px;
+  }
+  
+}
+@media only screen and (max-width: 700px)  {
+  #img3{
+    display: none;
+  }
+  #img1{
+    height: 50px;
+  }
+  #img2{
+    height: 50px;
+    margin-top: 30px;
+  }
+  .textimg{
+    height: 100px;
+    margin-top: 20px;
+  }
+  .dewades{
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-top: -10px;
+  }
+  .watchimg{
+    height: 250px;
+  }
+  
+}
+
+@media only screen and (max-width: 700px)  {
+  #img3{
+    display: none;
+  }
+  #img1{
+    height: 40px;
+  }
+  #img2{
+    height: 40px;
+    margin-top: 25px;
+  }
+  .textimg{
+    height: 80px;
+    margin-top: 20px;
+  }
+  .dewades{
+    color: aliceblue;
+    font-size: 1.1rem;
+    margin-top: -10px;
+  }
+  .watchimg{
+    height: 180px;
+  }
+  
+}
+
+
+
+
